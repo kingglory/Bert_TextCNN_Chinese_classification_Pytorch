@@ -33,15 +33,15 @@ bert-TextCNN
 # bert-TextCNN 模型结构图
 
 ## 模型1
-
-![bert-TextCNN 模型图1](image/bertTextCnn模型图1.png)        
+<img width="385" alt="bertTextCnn模型图1" src="https://user-images.githubusercontent.com/25979008/208849929-fa3ec6c2-abb4-4cc9-a176-4df121f9d830.png">
+     
 Bert-Base除去第一层输入层，有12个encoder层，每个encode层的第一个token（CLS）向量都可以当作句子向量，
 我们可以抽象的理解为，encode层越浅，句子向量越能代表低级别语义信息，越深，代表更高级别语义信息。
 我们的目的是既想得到有关词的特征，又想得到语义特征，模型具体做法是将第1层到第12层的CLS向量，作为TextCNN的输入，进行文本分类。
 
 ## 模型2
+![bertTextCnn模型图2](https://user-images.githubusercontent.com/25979008/208849833-a1dd270a-f40a-4edf-a5b0-851b297db6e0.png)
 
-![bert-TextCNN 模型图2](image/bertTextCnn模型图2.png)
 将 bert 模型的最后一层的输出的内容作为 TextCNN 模型的输入，送入模型在继续进行学习，得到最终的结果，进行文本分类
 
 # 项目数据集
