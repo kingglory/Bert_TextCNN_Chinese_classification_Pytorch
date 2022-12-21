@@ -1,0 +1,2 @@
+# Bert_TextCNN_Chinese_classification_Pytorch
+中文二分类，bert+TextCNN 两种实现方法
