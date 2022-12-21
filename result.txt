@@ -1,0 +1,62 @@
+BertTextModel_encode_layer:
+[1/ 1000]       Train_Loss:1.0484
+[1/ 2000]       Train_Loss:0.7096
+[1/ 3000]       Train_Loss:0.5896
+[1/ 4000]       Train_Loss:0.5212
+[1/ 5000]       Train_Loss:0.4691
+[1/ 5625]       Train_Loss:0.4452
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 313/313 [00:07<00:00, 43.07it/s]
+dev acc:0.8310
+以保存最佳模型
+运行时间：34.56 min
+
+BertTextModel_last_layer:
+[1/ 1000]       Train_Loss:1.5257
+[1/ 2000]       Train_Loss:1.3291
+[1/ 3000]       Train_Loss:1.2539
+[1/ 4000]       Train_Loss:1.2084
+[1/ 5000]       Train_Loss:1.1752
+[1/ 6000]       Train_Loss:1.1696
+[1/ 7000]       Train_Loss:1.1737
+[1/ 8000]       Train_Loss:1.1088
+[1/ 9000]       Train_Loss:1.1277
+[1/10000]       Train_Loss:1.1013
+[1/11000]       Train_Loss:1.0492
+[1/12000]       Train_Loss:1.0452
+[1/13000]       Train_Loss:1.0048
+[1/14000]       Train_Loss:1.0340
+[1/15000]       Train_Loss:0.9897
+[1/16000]       Train_Loss:1.0185
+[1/17000]       Train_Loss:0.9626
+[1/18000]       Train_Loss:0.9551
+[1/19000]       Train_Loss:0.9629
+[1/20000]       Train_Loss:0.9158
+[1/21000]       Train_Loss:0.9362
+[1/22000]       Train_Loss:0.9131
+[1/23000]       Train_Loss:0.9227
+[1/24000]       Train_Loss:0.8937
+[1/25000]       Train_Loss:0.8746
+[1/26000]       Train_Loss:0.9152
+[1/27000]       Train_Loss:0.8763
+[1/28000]       Train_Loss:0.8763
+[1/29000]       Train_Loss:0.8597
+[1/30000]       Train_Loss:0.8404
+[1/31000]       Train_Loss:0.8421
+[1/32000]       Train_Loss:0.8316
+[1/33000]       Train_Loss:0.8493
+[1/34000]       Train_Loss:0.8070
+[1/35000]       Train_Loss:0.7853
+[1/36000]       Train_Loss:0.8150
+[1/37000]       Train_Loss:0.8041
+[1/38000]       Train_Loss:0.7970
+[1/39000]       Train_Loss:0.7828
+[1/40000]       Train_Loss:0.7736
+[1/41000]       Train_Loss:0.7781
+[1/42000]       Train_Loss:0.7572
+[1/43000]       Train_Loss:0.7931
+[1/44000]       Train_Loss:0.7444
+[1/45000]       Train_Loss:0.7312
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2500/2500 [00:27<00:00, 91.24it/s]
+dev acc:0.9231
+以保存最佳模型
+运行时间：30.7300 min
